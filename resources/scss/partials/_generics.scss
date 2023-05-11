@@ -18,8 +18,10 @@ body {
 .navbar {
     height: 100px;
 
-    .navbar-brand {
+    a {
         text-transform: uppercase;
+        text-decoration: none;
+        color: white;
         font-size: 30px;
         padding-left: 130px;
     }
