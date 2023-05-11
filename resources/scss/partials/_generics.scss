@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+/* Generic */
+body {
+    font-family: "Open Sans", sans-serif;
+    background-color: aqua;
+}
+
+.navbar {
+    height: 100px;
+
+    .navbar-brand {
+        text-transform: uppercase;
+        font-size: 30px;
+        padding-left: 130px;
+    }
+}
